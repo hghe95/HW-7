@@ -2,16 +2,16 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == 'Apache') {
-    const apacheLicense = '[![Badge](https://img.shields.io/badge/License-Apache-blue.svg)]'
+    const apacheLicense = `[![badge](https://img.shields.io/badge/license-Apache-blue)](https://opensource.org/licenses/Apache-2.0)`
     return apacheLicense;
-  } else if (license == 'GPL') {
-    const gplLicense = '[![Badge](https://img.shields.io/badge/License-GPL-blue.svg)]'
+  } else if (license == 'EPL') {
+    const gplLicense = `[![badge](https://img.shields.io/badge/license-EPL-blue)](https://opensource.org/licenses/EPL-2.0)`
     return gplLicense;
   } else if (license == 'MIT') {
-    const mitLicense = '[![Badge](https://img.shields.io/badge/License-MIT-blue.svg)]'
+    const mitLicense = `[![badge](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)`
     return mitLicense;
   } else if (license == 'None') {
-    return ''
+    return ``
   }
 }
 
@@ -19,13 +19,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'Apache') {
-    const apacheLicense = `![License](https://img.shields.io/aur/license/readme-generator)`
+    const apacheLicense = `[![license](https://opensource.org/licenses/Apache-2.0)`
     return apacheLicense;
-  } else if (license == 'GPL') {
-    const gplLicense = `![License](https://img.shields.io/eclipse-marketplace/l/readme-generator)`
+  } else if (license == 'EPL') {
+    const gplLicense = `[![license](https://opensource.org/licenses/EPL-2.0)`
     return gplLicense;
   } else if (license == 'MIT') {
-    const mitLicense = `![License](https://img.shields.io/npm/l/readme-generator)`
+    const mitLicense = `[![license](https://opensource.org/licenses/MIT)`
     return mitLicense;
   } else if (license == 'None') {
     return ``;
@@ -50,7 +50,8 @@ function generateMarkdown(data) {
 
   ##Table Of Contents
   *[Installation](#installation)
-  *[Usage](#usage) ${renderLicenseLink(data.license)}
+  *[Usage](#usage) 
+  ${renderLicenseLink(data.license)}
   *[Contributions](#contributions)
   *[Test](#test)
   *[Questions](#questions)
