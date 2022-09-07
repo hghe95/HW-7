@@ -1,0 +1,19 @@
+{
+  "name": "readme-generator",
+  "version": "1.0.0",
+  "description": "JSON Package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hghe95/HW-7.git"
+  },
+  "author": "Henry He",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hghe95/HW-7/issues"
+  },
+  "homepage": "https://github.com/hghe95/readme-generator#readme"
+}
