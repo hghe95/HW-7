@@ -2,13 +2,13 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == 'Apache') {
-    const apacheLicense = `[![badge](https://img.shields.io/badge/license-Apache-blue)](https://opensource.org/licenses/Apache-2.0)`
+    const apacheLicense = `[![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
     return apacheLicense;
   } else if (license == 'EPL') {
-    const gplLicense = `[![badge](https://img.shields.io/badge/license-EPL-blue)](https://opensource.org/licenses/EPL-2.0)`
+    const gplLicense = `[![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://opensource.org/licenses/EPL-2.0)`
     return gplLicense;
   } else if (license == 'MIT') {
-    const mitLicense = `[![badge](https://img.shields.io/badge/license-MIT-blue)](https://opensource.org/licenses/MIT)`
+    const mitLicense = `[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)`
     return mitLicense;
   } else if (license == 'None') {
     return ``
@@ -19,13 +19,13 @@ function renderLicenseBadge(license) {
 // If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license == 'Apache') {
-    const apacheLicense = `[![license](https://opensource.org/licenses/Apache-2.0)`
+    const apacheLicense = `https://opensource.org/licenses/Apache-2.0`
     return apacheLicense;
   } else if (license == 'EPL') {
-    const gplLicense = `[![license](https://opensource.org/licenses/EPL-2.0)`
+    const gplLicense = `https://opensource.org/licenses/EPL-2.0`
     return gplLicense;
   } else if (license == 'MIT') {
-    const mitLicense = `[![license](https://opensource.org/licenses/MIT)`
+    const mitLicense = `https://opensource.org/licenses/MIT`
     return mitLicense;
   } else if (license == 'None') {
     return ``;
@@ -51,6 +51,7 @@ function generateMarkdown(data) {
   ##Table Of Contents
   *[Installation](#installation)
   *[Usage](#usage) 
+  *[License](#license)
   ${renderLicenseLink(data.license)}
   *[Contributions](#contributions)
   *[Test](#test)
@@ -62,6 +63,7 @@ function generateMarkdown(data) {
   ## Usage
     ${data.usage}
 
+  ## License
   ${renderLicenseSection(data.license)}
 
   ## Contributions
