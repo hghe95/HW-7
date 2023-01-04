@@ -11,14 +11,14 @@
 * [Questions](#questions)
 * [Video](#video)
 
-  ## Installation
+## Installation
 NPM and Inquirer
 
   ## Usage
 * Upon downloading, open the terminal and navigate to root file. 
 * Then type 'node index.js' and answer all of the prompts.
 
-  ## License
+## License
 This application is covered by the following license: MIT.\
 https://opensource.org/licenses/MIT
 
@@ -30,7 +30,7 @@ Simply answer all questions prompted to you.
 
   ## Questions
 If you have any questions, please contact me using the links below:\
-Github: https://github.com/hghe95\
+Github: https://github.com/hghe95 \
 Email: hghe95@gmail.com
 
   ## Video
