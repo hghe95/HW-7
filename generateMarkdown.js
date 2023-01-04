@@ -51,31 +51,31 @@ function generateMarkdown(data) {
 # ${data.title}
 ${renderLicenseBadge(data.licensing)}
 
-##Table Of Contents
+  ## Table Of Contents
 *[Installation](#installation)
 *[Usage](#usage) 
 *[License](#license)
-${renderLicenseLink(data.licensing)}
 *[Contributions](#contributions)
 *[Test](#test)
 *[Questions](#questions)
 
-## Installation
+  ## Installation
 ${data.installation}
 
-## Usage
+  ## Usage
 ${data.usage}
 
-## License
+  ## License
 ${renderLicenseSection(data.licensing)}
+${renderLicenseLink(data.licensing)}
 
-## Contributions
+  ## Contributions
 ${data.contributions} 
 
-## Test
+  ## Test
 ${data.test}
 
-## Questions
+  ## Questions
 If you have any questions, please contact me using the links below:
 Github: https://github.com/${data.github}
 Email: ${data.email}
