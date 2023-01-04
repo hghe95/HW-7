@@ -52,12 +52,12 @@ function generateMarkdown(data) {
 ${renderLicenseBadge(data.licensing)}
 
   ## Table Of Contents
-*[Installation](#installation)
-*[Usage](#usage) 
-*[License](#license)
-*[Contributions](#contributions)
-*[Test](#test)
-*[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage) 
+* [License](#license)
+* [Contributions](#contributions)
+* [Test](#test)
+* [Questions](#questions)
 
   ## Installation
 ${data.installation}
@@ -67,7 +67,7 @@ ${data.usage}
 
   ## License
 ${renderLicenseSection(data.licensing)}
-${renderLicenseLink(data.licensing)}
+  ${renderLicenseLink(data.licensing)}
 
   ## Contributions
 ${data.contributions} 
@@ -77,8 +77,8 @@ ${data.test}
 
   ## Questions
 If you have any questions, please contact me using the links below:
-Github: https://github.com/${data.github}
-Email: ${data.email}
+  Github: https://github.com/${data.github}
+  Email: ${data.email}
   `
 }
 

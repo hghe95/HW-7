@@ -1,33 +1,33 @@
 
 # test
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
   ## Table Of Contents
-*[Installation](#installation)
-*[Usage](#usage) 
-*[License](#license)
-*[Contributions](#contributions)
-*[Test](#test)
-*[Questions](#questions)
+* [Installation](#installation)
+* [Usage](#usage) 
+* [License](#license)
+* [Contributions](#contributions)
+* [Test](#test)
+* [Questions](#questions)
 
   ## Installation
-NPM and inquirer
+inquirer and node
 
   ## Usage
-Clone and enter index.js in the terminal
+clone, node index.js
 
   ## License
-This application is covered by the following license: MIT.
-https://opensource.org/licenses/MIT
+This application is covered by the following license: Apache.
+  https://opensource.org/licenses/Apache-2.0
 
   ## Contributions
-Anyone can contribute 
+anyone can contribute 
 
   ## Test
-Just answer the queestions!
+answer the questions
 
   ## Questions
 If you have any questions, please contact me using the links below:
-Github: https://github.com/hehehehe
-Email: hehe@email.com
+  Github: https://github.com/hehehehe
+  Email: hehe@email.com
   
