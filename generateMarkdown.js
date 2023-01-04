@@ -2,16 +2,19 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license == 'Apache') {
-    const apacheLicense = `[![License](https://img.shields.io/badge/license-Apache-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+    const apacheLicense = `[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)`
+    console.log(apacheLicense);
     return apacheLicense;
   } else if (license == 'EPL') {
     const gplLicense = `[![License](https://img.shields.io/badge/license-EPL-blue.svg)](https://opensource.org/licenses/EPL-2.0)`
+    console.log(gplLicense);
     return gplLicense;
   } else if (license == 'MIT') {
     const mitLicense = `[![License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)`
+    console.log(mitLicense);
     return mitLicense;
   } else if (license == 'None') {
-    return ``
+    return ``;
   }
 }
 
@@ -46,36 +49,36 @@ function renderLicenseSection(license) {
 function generateMarkdown(data) {
   return `
   # ${data.title}
-  ${renderLicenseBadge(data.license)}
+  ${renderLicenseBadge(data.licensing)}
 
   ##Table Of Contents
   *[Installation](#installation)
   *[Usage](#usage) 
   *[License](#license)
-  ${renderLicenseLink(data.license)}
+  ${renderLicenseLink(data.licensing)}
   *[Contributions](#contributions)
   *[Test](#test)
   *[Questions](#questions)
 
   ## Installation
-    ${data.installation}
+  ${data.installation}
 
   ## Usage
-    ${data.usage}
+  ${data.usage}
 
   ## License
-  ${renderLicenseSection(data.license)}
+  ${renderLicenseSection(data.licensing)}
 
   ## Contributions
-    ${data.contributions} 
+  ${data.contributions} 
 
   ## Test
-    ${data.test}
+  ${data.test}
 
   ## Questions
-    If you have any questions, please contact me using the links below:
-    Github: https://github.com/${data.github}
-    Email: ${data.email}
+  If you have any questions, please contact me using the links below:
+  Github: https://github.com/${data.github}
+  Email: ${data.email}
   `
 }
 

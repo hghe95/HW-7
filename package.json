@@ -8,12 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hghe95/HW-7.git"
+    "url": "git+https://github.com/hghe95/mod9_pro-README-generator.git"
   },
   "author": "Henry He",
   "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  },
   "bugs": {
-    "url": "https://github.com/hghe95/HW-7/issues"
+    "url": "https://github.com/hghe95/mod9_pro-README-generator/issues"
   },
   "homepage": "https://github.com/hghe95/readme-generator#readme"
 }
