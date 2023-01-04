@@ -66,8 +66,8 @@ ${data.installation}
 ${data.usage}
 
   ## License
-${renderLicenseSection(data.licensing)}
-  ${renderLicenseLink(data.licensing)}
+${renderLicenseSection(data.licensing)} \
+${renderLicenseLink(data.licensing)}
 
   ## Contributions
 ${data.contributions} 
@@ -76,9 +76,10 @@ ${data.contributions}
 ${data.test}
 
   ## Questions
-If you have any questions, please contact me using the links below:
-  Github: https://github.com/${data.github}
-  Email: ${data.email}
+If you have any questions, please contact me using the links below: \
+
+Github: https://github.com/${data.github} \
+Email: ${data.email}
   `
 }
 
