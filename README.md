@@ -1,14 +1,14 @@
 
   # README
-  undefined
+ [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-  ##Table Of Contents
-  *[Installation](#installation)
-  *[Usage](#usage) 
-  undefined
-  *[Contributions](#contributions)
-  *[Test](#test)
-  *[Questions](#questions)
+##Table Of Contents
+*[Installation](#installation)
+*[Usage](#usage) 
+*[License](#license)
+*[Contributions](#contributions)
+*[Test](#test)
+*[Questions](#questions)
 
   ## Installation
     NPM 
